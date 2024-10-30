@@ -1,0 +1,187 @@
+@media (max-width:600px) {
+    .burger {
+        display: block;
+    }
+    .tur,.adres,.tele,.phone,#navigation-menu,.social {
+        display: none;
+    }
+    .volga {
+        color:darkblue;
+        font-size: 30px;
+        font-weight:normal;
+        font-style: normal;
+        line-height: 50px;
+        left: 180px;
+        margin-top: 50px;
+    }
+    .burger-submenu span {
+        padding: 5px 5px;
+    }
+    .inputs{
+        display: none;
+    }
+    .inputs-2 {
+        display: block;
+        left: 25%;
+        top: 160px;
+    }
+    h1 {
+        margin-top: 450px;
+    }
+    .welcome {
+        height: 400px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .articles {
+    }
+    .advantages {
+        display: flex;
+        flex-direction: column;
+    }
+    .advantages > div {
+        border: none;
+        box-sizing: border-box;
+    } 
+    .advantage {
+        border-right: 1px solid rgb(223, 250, 253);
+    }
+    .advantage-3 {
+        border-right: 1px solid rgb(223, 250, 253);
+    }
+    
+}
+@media (max-width:850px) {
+    .header img {
+        left: 10px;
+    }
+    .volga {
+        left: 150px;
+    }
+    .tur,.adres {
+        display: none;
+    }
+    .social {
+        left: 60%;
+    }
+    .phone {
+        left: 60%;
+    }
+    .tele {
+        left:70%;
+    }
+    #navigation-menu {
+        margin-left:10%;
+        width: 600px;
+    }
+    .inputs {
+        width: 600px;
+        height: 180px;
+        margin-left:8%;
+    }
+    .welcome {
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;
+    }
+    .stars {
+        width: 100px;
+    }
+    .inputs table {
+        width: 500px;
+        border-spacing: 2px;
+        color: white;
+        margin-left: 5px;
+    }
+    .inputs select {
+        width: 80px;
+    }
+    .inputs button {
+        margin-left: 20px;
+        width: 80px;
+        height: 35px;
+    }
+    .inputs table input {
+        width: 80px;
+    }
+    #navigation-menu span,.navigation-submenu span {
+        background-color: rgb(149, 227, 247);
+        padding: 5px 5px;
+        cursor: pointer;
+        position: relative;
+    }
+    .welcome {
+        width: 100%;
+    }
+    .articles {
+            width:75% ;
+            height: 2400px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 100px;
+        }
+        .article  {
+            width: 300px;
+            height: 400px;
+        }
+        .art {
+            height: 50px;
+        }
+        .container-img {
+            height: 150px;
+            width: 300px;
+        }
+        .container-img img {
+            width: 300px;
+            height: 150px;
+        }
+        .article figcaption {
+            width: 300px;
+            height: 150px;
+        }
+        .article .about {
+            height: 100px;
+            width: 300px;
+        }
+        .advantages > div {
+            border-right: 1px solid rgb(223, 250, 253);
+            border-bottom: 1px solid rgb(223, 250, 253);
+        }
+        .advantage,.advantage-2,.advantage-3,.advantage-4 {
+            width: 250px;
+        }
+        .advantages {
+            width: 70%;
+            height: 1200px;
+        }
+        .gallery {
+            width: 400px;
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+        }
+        .gallery img {
+            width: 200px;
+        }
+        .gallery img:last-child{
+            display: none;
+        }
+        .arrow span {
+            font-size: 20px;
+            line-height: 200px;
+        }
+        .connect {
+            width: 250px;
+        }
+        .social-2 {
+            width: 250px;
+        }
+    }
+    
+
+    
+    
